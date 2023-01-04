@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+</head>
+<body>
+    
+    <nav>
+        
+        <div id="menu">
+            <img src="logo.png" alt="" class="logo">
+            <ul>
+                
+                <li><a href="#countainer" id="aa" >Calculator</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#inf_formula">Formula</a></li>
+                <li><a href="#overview">Overview</a></li>
+                
+            </ul>
+            <img src="dark theme icon/moon.png"  alt="" id="theme">
+        </div>
+    </nav>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<main>
+    <h1 style="  position: relative;">US Dollar inflation calculator</h1><br>
+    <p id="para">Hey there, we created this Crypto Investment Calculator  to facilitate your calculations of<br> crypto profits and losses.</p><br>
+    <div class="currency" id="move" style="position: relative; left:20px;"><img class="currency_1" src="currencies_icons/dollar.png" alt=""><span>USD</span>&nbsp&nbsp&nbsp <img class="currency_1" src="currencies_icons/euro.png" alt=""><span></span>Euro</span>&nbsp&nbsp&nbsp<img class="currency_1" src="currencies_icons/yuan.png" alt=""><span>YUAN</span>&nbsp&nbsp&nbsp<img class="currency_1" src="currencies_icons/franc.png" alt=""><span></span>FRANC</span>&nbsp&nbsp&nbsp<img class="currency_1" src="currencies_icons/pound.png" alt=""><span>POUND</span>&nbsp&nbsp&nbsp </div>
+<div id="move">       
+
+
+<div id="countainer" style="margin-left: 700px;">
+<div id="start"><img style="width: 30px ; position: absolute; left: 12px; bottom: 15px;" id="calendar" src="calendar.png" alt="gg"><label style="color: gray; padding: 50px;" class="labels">Start Month:</label><br><input type='text' value='2012/1/1' id='startDate' class="input"/></div>
+<br />
+<div id="end"><img style="width: 30px ; position: absolute; left: 12px; bottom: 15px;" id="calendar" src="calendar.png" alt="gg"><label  style="color: gray ; padding: 50px" class="labels"> End Month:</label><br><input type='text' value='2012/12/1' id='endDate' class="input"/></div>
+<br />
+<div id="price"><img style="width: 20px ; position: absolute; left: 15px; bottom: 12px;" id="dolla" src="dolla_sign.png" alt="gg"> <label style="color: gray; padding: 50px" class="labels"> Start Price:</label><br><input type='text' value='100' id='startPrice' class="input" /></div>
+<br />
+<div id="btn"><button id='calc' class="input" >Calculate</button></div>
+<br />
+<div id="nd_prc"> <img style="width: 20px ; position: absolute; left: 15px; bottom: 12px;" id="dolla" src="dolla_sign.png" alt="gg"><label style="color: rgb(100, 100, 100); padding: 50px" class="labels">End Price:</label><br><input style="color: white;" type='text' value=''  id='endPrice' class="input"/></div>
+<br />
+
+</div>
+</div>  
+<br><br><br><br><br><br>
+<div class="reviews" id="reviews">
+    <div id="review1">
+        <fieldset><legend><img  src="reviews/1review.png" alt=""><span>Brian Jung</span><img id="five_stars" src="reviews/5stars.png" alt=""></legend><br>
+            <span class="review_span">Does what it promises with an easy and functional interface. The lack of ads is greatly appreciated! I use it when watching old movies - whenever a guy in 1930s or 40s talks about $500 or $1000 like it's a huge amount, I always want to know how huge it must have been</span>
+        </fieldset>    
+    </div>
+    <div id="review2">
+        <fieldset><legend><img  src="reviews/2review.png" alt=""><span>Taylor Mitchell</span><img id="five_star" src="reviews/5stars.png" alt=""></legend><br>
+            <span class="review_span">Use often when reviewing historical data. Helpful in understanding buying power in different eras. Easy to use and well designed.</span>
+        </fieldset>
+    </div>
+
+</div>
+<div class="inf_formula" id="inf_formula"> 
+    <div class="inif_formula"><span  >Inflation Rate Formula </span><br><br><p id="pari">Learn how to calculate Inflation rate of your own country <br> (A= starting price)  (B= Ending price)</p></div><br><br><br>
+    <div class="formula_steps">
+        <div><img src="inflation_1.png" alt=""><br><span id="formula_span">Subtract A from B</span><br><p id="formula_par">Subtract A from B to find out how <br> much the price of  that specific good or <br> service has changed.</p></div>
+        <div><img src="inflation_2.png" alt=""><br><span id="formula_span">Divide the result by A</span><br><p id="formula_par">Then divide the result by A <br> (the starting price) which will leave you <br> with a decimal number.</p></div>
+        <div><img src="inflation_3.png" alt=""><br><span id="formula_span">Convert the decimal number</span><br><p id="formula_par">Convert the decimal number <br> into a percentage  by multiplying it by 100. <br> The result is the rate of inflation!</p></div>
+    </div>
+    
+</div>
+
+
+<hr>
+
+<div class="overview" id="overview">
+    <div>
+        <span>Overview</span><br><br><br>
+        <div id="over_p_1"><p>Inflation is the change of the price for the set of services and products within some period and of the country currency purchasing power on the internal market.It is one of the most important characteristics of the country economy, a key attribute of the economy health. Both - high inflation, hyperinflation and low inflation,  deflation - are usually</p></div> <div id="over_p_2"> <p> signals for various issues with the country economy.
+
+            Government of every advanced country with the market economy system calculates, tracks and monitors  the inflation rate on a regular basis as it represents the activities and processes going on in the society, very often as a reaction, feedback to government policies and actions.</p></div>
+
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+<script type="text/javascript">
+    var apiUrl = 'https://www.statbureau.org/calculate-inflation-price-jsonp?jsoncallback=?';
+
+    $('#calc').on('click', function calculate() {
+        $.getJSON(apiUrl, {
+            country: 'united-states',
+            start: $('#startDate').val(),
+            end: $('#endDate').val(),
+            amount: $('#startPrice').val(),
+            format: true
+        })
+          .done(function (data) {
+              $('#endPrice').val(data);
+          });
+    });
+</script>
+
+<script>
+    var theme = document.getElementById("theme");
+    theme.onclick=function(){
+        document.body.classList.toggle("light_mode")
+        if(document.body.classList.contains("light_mode")){
+            theme.src="dark theme icon/moon.png";
+        }else{
+                theme.src="dark theme icon/sun.png";
+            }
+        
+    }
+</script>
+
+    
+</main>
+<footer>
+    <div> <br>
+        <span>Talk to Jerome Powell and <br> start complaining about prices</span><br><br><br><br>
+        <span>© 2022 AY_D1 ALL RIGHTS RESERVED </span>
+        
+    </div>
+    <input type="text" placeholder="Name" id="child_1">
+    <input type="text" placeholder="Email" id="child_2" > <input type="submit" id="child_3">
+    <ul>
+
+        <li><a href=""><img src="social media icons/294068_twitter_icon.png" alt=""></a></li>
+        <li><a href=""><img src="social media icons/294073_facebook_icon.png" alt=""></a></li>
+        <li><a href=""><img src="social media icons/294091_linkedin_icon.png" alt=""></a></li>
+        <li><a href=""><img src="social media icons/294092_instagram_icon.png" alt=""></a></li>
+        </div>
+    </ul>
+    
+</footer>
+
+</body>
+
+</html>
+
+
